@@ -8,7 +8,7 @@ export const WavyBackground = ({
   className,
   containerClassName,
   colors,
-  waveWidth='50',
+  waveWidth = '50',
   backgroundFill,
   blur = 10,
   speed = "fast",
@@ -16,14 +16,9 @@ export const WavyBackground = ({
   ...props
 }) => {
   const noise = createNoise3D();
-  let w,
-    h,
-    nt,
-    i,
-    x,
-    ctx,
-    canvas;
+  let w, h, nt, i, x, ctx, canvas;
   const canvasRef = useRef(null);
+
   const getSpeed = () => {
     switch (speed) {
       case "slow":
@@ -57,6 +52,7 @@ export const WavyBackground = ({
     "#e879f9",
     "#22d3ee",
   ];
+
   const drawWave = (n) => {
     nt += getSpeed();
     for (i = 0; i < n; i++) {
@@ -97,18 +93,17 @@ export const WavyBackground = ({
   }, []);
 
   return (
-    (<div
-      className={cn("h-screen flex flex-col items-center justify-center", containerClassName)}>
+    <div className={cn("relative flex flex-col items-center justify-center w-full h-full", containerClassName)}>
       <canvas
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 w-full h-full"
         ref={canvasRef}
         id="canvas"
         style={{
           ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
         }}></canvas>
-      <div className={cn("relative z-10", className)} {...props}>
+      <div className={cn("relative z-10 w-full h-full", className)} {...props}>
         {children}
       </div>
-    </div>)
+    </div>
   );
 };

@@ -56,25 +56,27 @@ export function HeroSection() {
   return (
     <>
       <div className="absolute top-0 left-0 p-4 z-50">
-        <img src="/images/logo.gif" alt="Logo" className="h-16 w-auto" />
+        <img src="/images/logo.gif" alt="Logo" className="h-12 md:h-16 w-auto" />
       </div>
       <div className="absolute top-0 right-0 p-4 z-50">
         <div className="space-y-1">
-          <span className="block w-8 h-0.5 bg-white"></span>
-          <span className="block w-8 h-0.5 bg-white"></span>
-          <span className="block w-8 h-0.5 bg-white"></span>
+          <span className="block w-6 md:w-8 h-0.5 bg-white"></span>
+          <span className="block w-6 md:w-8 h-0.5 bg-white"></span>
+          <span className="block w-6 md:w-8 h-0.5 bg-white"></span>
         </div>
       </div>
-      <WavyBackground className="max-w-4xl mx-auto pb-40">
-        <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-          YOUR STRATEGIC PARTNER FOR 
-        </p>
-        <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-          <GibberishText className="text-6xl font-black" text={wordsArray[currentWordIndex]} />
-        </p>
-        <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-          Expert Bespoke Digital Solutions designed to boost revenue, elevate your brand presence & increase operational efficiency
-        </p>
+      <WavyBackground className="w-full mx-auto h-screen md:h-screen">
+        <div className="max-w-4xl mx-auto px-4 h-full flex flex-col justify-center">
+          <p className="text-4xl md:text-6xl lg:text-7xl text-white font-bold inter-var text-center">
+            YOUR STRATEGIC PARTNER FOR 
+          </p>
+          <p className="text-4xl md:text-6xl lg:text-7xl text-white font-bold inter-var text-center">
+            <GibberishText className="text-4xl md:text-6xl font-black" text={wordsArray[currentWordIndex]} />
+          </p>
+          <p className="text-base md:text-lg lg:text-xl mt-4 text-white font-normal inter-var text-center">
+            Expert Bespoke Digital Solutions designed to boost revenue, elevate your brand presence & increase operational efficiency
+          </p>
+        </div>
       </WavyBackground>
     </>
   );
