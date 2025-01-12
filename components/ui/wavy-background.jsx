@@ -12,7 +12,7 @@ export const WavyBackground = ({
   backgroundFill,
   blur = 10,
   speed = "fast",
-  waveOpacity = 0.5,
+  waveOpacity = 0.9,
   ...props
 }) => {
   const noise = createNoise3D();

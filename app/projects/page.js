@@ -3,32 +3,32 @@ import Image from 'next/image';
 export default function ProjectPage() {
   const projects = [
     {
-      title: "Moonbeam",
+      title: "Como Collective Online",
       link: "#",
       thumbnail: "/images/1.jpeg",
     },
     {
-      title: "Cursor",
+      title: "TEDxMargao Website",
       link: "#",
       thumbnail: "/images/2.png",
     },
     {
-      title: "Rogue",
+      title: "Vaz-Pereira Dental Clinic",
       link: "#",
       thumbnail: "/images/3.png",
     },
     {
-      title: "Editorially",
+      title: "Cremeux UI/UX & Development Assistance",
       link: "https://editorially.org",
       thumbnail: "/images/4.png",
     },
     {
-      title: "Editrix AI",
+      title: "Living OF Belgium",
       link: "https://editrix.ai",
       thumbnail: "/images/5.png",
     },
     {
-      title: "Pixel Perfect",
+      title: "OkayDone - Website UI Design",
       link: "https://app.pixelperfect.quest",
       thumbnail: "/images/6.png",
     },
@@ -38,17 +38,17 @@ export default function ProjectPage() {
       thumbnail: "/images/7.jpg",
     },
     {
-      title: "Aceternity UI",
+      title: "IBFW Showcase",
       link: "https://ui.aceternity.com",
       thumbnail: "/images/8.jpg",
     },
     {
-      title: "Tailwind Master Kit",
+      title: "Ridhira Zen Hyderabad",
       link: "https://tailwindmasterkit.com",
       thumbnail: "/images/9.png",
     },
     {
-      title: "SmartBridge",
+      title: "Ridhira Zen Hyderabad",
       link: "https://smartbridgetech.com",
       thumbnail: "/images/11.jpg",
     },
@@ -58,7 +58,7 @@ export default function ProjectPage() {
       thumbnail: "/images/12.png",
     },
     {
-      title: "Creme Digital",
+      title: "Snip Salon & Spa",
       link: "https://cremedigital.com",
       thumbnail: "/images/13.jpeg",
     },
@@ -68,7 +68,7 @@ export default function ProjectPage() {
       thumbnail: "/images/14.jpg",
     },
     {
-      title: "Invoker Labs",
+      title: "Snip Salon & Spa",
       link: "https://invoker.lol",
       thumbnail: "/images/15.jpg",
     },

@@ -7,29 +7,29 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
+    title: "Como Collective Online",
     link: "#",
     thumbnail: "/images/1.jpeg",
   },
   {
-    title: "Cursor",
+    title: "TEDxMargao",
     link: "#",
     thumbnail: "/images/2.png",
   },
   {
-    title: "Rogue",
+    title: "Vaz-Pereira Dental Clinic",
     link: "#",
     thumbnail: "/images/3.png",
   },
 
   {
-    title: "Editorially",
+    title: "Cremeux UI/UX & Development Assistance",
     link: "https://editorially.org",
     thumbnail:
       "/images/4.png",
   },
   {
-    title: "Editrix AI",
+    title: "Living OF Belgium",
     link: "https://editrix.ai",
     thumbnail:
       "/images/5.png",
@@ -42,7 +42,7 @@ export const products = [
   },
 
   {
-    title: "Algochurn",
+    title: "OkayDone - Website UI Design",
     link: "https://algochurn.com",
     thumbnail:
       "/images/7.jpg",
@@ -54,13 +54,13 @@ export const products = [
       "/images/8.jpg",
   },
   {
-    title: "Tailwind Master Kit",
+    title: "Ridhira Zen Hyderabad",
     link: "https://tailwindmasterkit.com",
     thumbnail:
       "/images/9.png",
   },
   {
-    title: "SmartBridge",
+    title: "Snip Salon & Spa",
     link: "https://smartbridgetech.com",
     thumbnail:
       "/images/11.jpg",
